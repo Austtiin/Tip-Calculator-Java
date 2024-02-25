@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="m04.css">
+
+    </head>
+    <body>
+        
+        <label>Meal Cost:</label>
+        <input type="text" id="ELEM1"><br><br>
+
+        <form>
+            <label>Service Quality</label><br>
+        <input type="checkbox" class="CheakB" id="Ans1" name="Ans1" value="Great" onclick="OnClick(this)">
+        <label for="Ans1"> Great </label><br>
+
+        <input type="checkbox" class="CheakB" id="Ans2" name="Ans2" value="Okay" onclick="OnClick(this)">
+        <label for="Ans2"> Okay </label><br>
+
+        <input type="checkbox" class="CheakB" id="Ans3" name="Ans3" value="Poor" onclick="OnClick(this)">
+        <label for="Ans3"> Poor </label>
+        </form><br><br>
+
+        <h2 id="MC">Meal Cost: </h2>
+        <h2 id="RT">Reccomened Tip @ 18%: </h2>
+        <h2 id="TC">Total: </h2>
+        <h2 id="SQ">Service Quality: </h2>
+        <h2 id="Mess">  </h2>
+
+        <button type="submit" id="SubmitButton" onclick="CheakFields()"> Submit </button>
+       
+    </body>
+
+        <script src="M04.js">
+        </script>
+</html>
